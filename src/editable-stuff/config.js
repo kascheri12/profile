@@ -9,8 +9,12 @@ const mainBody = {
   firstName: "Kenneth",
   middleName: "",
   lastName: "Ascheri",
-  message: " Passionate about changing the world with technology. ",
+  message: " | Engineer | Programmer | Web Developer | Videographer | Artist | ",
   icons: [
+    {
+      image: "fa-linkedin",
+      url: "https://www.linkedin.com/in/kenneth-ascheri-5748567b/",
+    },
     {
       image: "fa-github",
       url: "https://github.com/kascheri12",
@@ -22,10 +26,6 @@ const mainBody = {
     {
       image: "fa-instagram",
       url: "https://www.instagram.com/kennyascheri/",
-    },
-    {
-      image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/kenneth-ascheri-5748567b/",
     },
     {
       image: "fa-twitter",
@@ -55,7 +55,7 @@ const about = {
   imageSize: 375,
   message:
     "My name is Kenneth Ascheri. I'm a graduate of California State University, Fullerton class of 2015. My degree is in Computer Science with a focus in Software Engineering. I'm most passionate about adventure and making memories with my family. My goal is to pursue this passion and document our best memories to share with our friends and family. In my free time I like sharpening my programming skills with personal projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+  resume: "https://docs.google.com/document/d/1ht1aVOeeboMJzI2zhfo3aoWMd-70DjQ7699zVDDHTZI/edit?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -67,7 +67,7 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "kascheri12", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  reposLength: 0,
   specificRepos: ['golem_util','pdga_scraper','rotkehlchen','golem'],
 };
 
