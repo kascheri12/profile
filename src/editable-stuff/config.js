@@ -145,11 +145,16 @@ const experiences = {
       date: 'May 2017 – May 2018',
     },
   ]
-}
+};
+
+const qr = {
+  heading: "QR",
+  imageLink: require("../editable-stuff/qr_code_home.png")
+};
 
 // Blog SECTION
 // const blog = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, qr };
