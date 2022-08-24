@@ -46,10 +46,6 @@ const QrPage = React.forwardRef((props, ref) => {
 const Home = React.forwardRef((props, ref) => {
   return (
     <>
-      <Qr
-        heading={qr.heading}
-        link={qr.imageLink}
-      />
       <MainBody
         gradient={mainBody.gradientColors}
         title={`${mainBody.firstName} ${mainBody.middleName} ${mainBody.lastName}`}

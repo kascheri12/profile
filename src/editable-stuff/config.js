@@ -13,7 +13,7 @@ const mainBody = {
   icons: [
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/kenneth-ascheri-5748567b/",
+      url: "https://www.linkedin.com/in/kenneth-ascheri/",
     },
     {
       image: "fa-github",
