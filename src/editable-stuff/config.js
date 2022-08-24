@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/kennethascheri.png"),
   imageSize: 375,
   message:
-    "My name is Kenneth Ascheri. I'm a graduate of California State University, Fullerton class of 2015. My degree is in Computer Science with a focus in Software Engineering. I'm most passionate about adventure and making memories with my family. My goal is to pursue this passion and document our best memories to share with our friends and family. In my free time I like sharpening my programming skills with personal projects.",
+    "My name is Kenneth Ascheri. I'm a graduate of California State University, Fullerton class of 2015. My degree is in Computer Science with a focus in Software Engineering. I'm most passionate about programming, adventure, art, and making memories with my family. My goal is to pursue these passions and document our best memories to share with friends and family. In my time off the clock I enjoy sharpening my programming skills, disc golfing, and editing youtube videos of my adventures.",
   resume: "https://docs.google.com/document/d/1ht1aVOeeboMJzI2zhfo3aoWMd-70DjQ7699zVDDHTZI/edit?usp=sharing",
 };
 
@@ -73,25 +73,24 @@ const repos = {
 
 // Leadership SECTION
 const leadership = {
-  show: false,
+  show: true,
   heading: "Leadership",
-  message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+  message: "As a leader, it is my responsibility to ensure that every team member has the necessary tools and environment to succeed. I need to be approachable, professional, personable, and expressive. To foster a productive team, I need to express gratitude and trust.",
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../assets/img/lanecc_logo.png"), 
+      label: "Lead Programmer/Systems Analyst", 
+      paragraph: "Provide leadership to a team of Programmer/Systems Analysts understanding complex systems throughout the organization. Initialize space for teams to present and share project and maintenance deliverables with scrum influenced cycles."
     },
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../assets/img/lccef_logo.webp"), 
+      label: "Vice President of Labor Relations", 
+      paragraph: "Engage in meaningful support and advocacy for the Classified employee local of paraprofessionals at Lane Community College. Support and represent labor relation queries between employees and management, bargain reopener contract agreements, chair the annual budget development subcommittee through the fiscal cycle."
     },
   ],
   imageSize: {
-    width:"615",
-    height:"450"
+    width:"75%",
+    height:"75%"
   }
 };
 
@@ -103,21 +102,21 @@ const skills = {
     { name: "Python", value: 80 },
     { name: "SQL", value: 90 },
     { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 30 },
     { name: "JavaScript", value: 65 },
+    { name: "JQuery", value: 80 },
     { name: "PHP", value: 75 },
-    { name: "HTML/CSS", value: 65 },
-    { name: "C#", value: 80 },
+    { name: "HTML/CSS", value: 90 },
+    { name: "C#", value: 80 }
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
     { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
+    { name: "Positivity", value: 85 },
     { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
+    { name: "Problem Solving", value: 85 },
     { name: "Empathy", value: 90 },
     { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Creativity", value: 90 }
   ],
 };
 
@@ -131,18 +130,20 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      company: 'Lane Community College',
+      role: 'Programmer/Systems Analyst',// Here Add Company Name
+      companylogo: require('../assets/img/lanecc_logo.png'),
+      date: 'Aug 2016 – Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      company: 'XDimensional Technologies, Inc.',
+      role: 'Product Support Engineer',
+      companylogo: require('../assets/img/xdti_logo.png'),
+      date: 'Dec 2013 – Aug 2016',
     },
   ]
 };
