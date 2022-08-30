@@ -68,7 +68,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "kascheri12", //i.e."johnDoe12Gh"
   reposLength: 0,
-  specificRepos: ['golem_util','pdga_scraper','rotkehlchen','golem'],
+  specificRepos: ['KenBox-python','KenBox-csharp','golem_util','pdga_scraper'],
 };
 
 // Leadership SECTION
